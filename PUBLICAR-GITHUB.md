@@ -1,6 +1,6 @@
 # Publicar o Vértice com GitHub Actions
 
-O projecto é um site estático. Não precisa de `npm install` nem de build. O workflow em `.github/workflows/deploy.yml` publica o conteúdo desta pasta no GitHub Pages sempre que houver um `push` para `main`. Também pode ser executado manualmente em **Actions → Publicar site no GitHub Pages → Run workflow**.
+O projecto é um site estático. Não precisa de `npm install`. O workflow em `.github/workflows/deploy.yml` copia `index.html`, `assets/` e `src/` para `dist/` e publica essa pasta no GitHub Pages sempre que houver um `push` para `main`. Também pode ser executado manualmente em **Actions → Publish site to GitHub Pages → Run workflow**.
 
 ## 1. Rever os dados antes de partilhar
 
